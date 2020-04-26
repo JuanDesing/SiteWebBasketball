@@ -1,0 +1,62 @@
+body{
+  background: rgb(38,216,21);
+  background: linear-gradient(90deg, rgba(38,216,21,0.5102415966386555) 0%, rgba(21,216,66,0.7651435574229692) 52%, rgba(155,255,0,0.700717787114846) 100%);
+}
+.jumbotron{
+  min-height: 20vh;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200;
+  position: relative;
+  background: #15d842 url(img/Historia.jpg) center center;
+  width:100%;
+  height:100%;
+  background-size: cover;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.container-fluid {
+  min-height: 200vh;
+  padding-top: 10vmax;
+}
+.navbar{
+  border-bottom: rgba(155,255,0,0.700717787114846) 3px solid; 
+  opacity: .8;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #34f706;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: rgb(38,216,21); 
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #34f706!important;
+  background-color: #343a40 !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+.dropdown-menu li a {
+  color: #343a40 !important;
+}
+section.info-head-section > * {
+  background: rgba(38,216,21,0.5102415966386555);
+  
+}
+section.Mision-head-section > * {
+  background: rgba(38,216,21,0.5102415966386555);
+}
+section.Vision-head-section > * {
+  background: rgba(38,216,21,0.5102415966386555);
+}
+.Inicio-section{
+  min-height: 2vh;
+}
+.bg-primary{
+  transition: all 1s ease;
+}
+
